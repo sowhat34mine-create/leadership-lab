@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="ru" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лидерство — интерактивный курс по коммуникации и командообразованию</title>
+  <meta name="description" content="Интерактивная презентация о лидерстве: стили, коммуникация, доверие, этапы команды, обратная связь и симулятор решений.">
+  <meta property="og:title" content="Лидерство — интерактивный курс">
+  <meta property="og:description" content="Технологии коммуникации и принципы командообразования: 14 слайдов, тест, симулятор и шпаргалка.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <noscript><style>.reveal{opacity:1!important;transform:none!important}</style></noscript>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%237c5cff'/%3E%3Cpath d='M18 46V18h7v21h14v7H18z' fill='%23fff'/%3E%3Ccircle cx='46' cy='21' r='5' fill='%2322d3ee'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <svg class="sprite" aria-hidden="true" focusable="false">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12.5 5 5L20 6.5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M4 12h15m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8.5 8.5 0 0 1 9.5 4 8.5 8.5 0 1 0 20 14.5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-print" viewBox="0 0 24 24"><path d="M7 9V4h10v5M7 18H4V9h16v9h-3M7 14h10v6H7z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-note" viewBox="0 0 24 24"><path d="M5 4h14v16H5zM8 9h8M8 13h8M8 17h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 2.5 14 9l6.5 2-6.5 2-2 6.5L10 13 3.5 11 10 9l2-6.5Z" fill="currentColor"/></symbol>
+    <symbol id="i-copy" viewBox="0 0 24 24"><rect x="8" y="8" width="12" height="12" rx="2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 1 0-2.3 6M20 4v7h-7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 20c0-3.2 2.5-5.2 5.5-5.2s5.5 2 5.5 5.2M16 5.2a3.2 3.2 0 0 1 0 6.1M17.5 14.5c2 .6 3.2 2.3 3.2 4.5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-message" viewBox="0 0 24 24"><path d="M4 5h16v12H9l-5 4V5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M8 9h8M8 13h5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 5 3.1 8.4 7.5 9.5 4.4-1.1 7.5-4.5 7.5-9.5V6L12 3Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4 4.6-4.8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.7" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="m15.5 8.5-2 5-5 2 2-5 5-2Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+    <symbol id="i-layers" viewBox="0 0 24 24"><path d="m12 3 9 5-9 5-9-5 9-5Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="m3 12 9 5 9-5M3 16l9 5 9-5" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <div class="scroll-progress" aria-hidden="true"><i id="scrollBar"></i></div>
+
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="brand" href="#top" aria-label="Лидерство — на главную">
+        <span class="brand-mark">Λ</span>
+        <span>Лидерство<span class="dot">.</span></span>
+      </a>
+      <nav class="main-nav" aria-label="Основная навигация">
+        <a href="#program">Программа</a>
+        <a href="#communication">Коммуникация</a>
+        <a href="#team">Команда</a>
+        <a href="#test">Тест</a>
+        <a href="#simulator">Симулятор</a>
+        <a href="#tools">Шпаргалка</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="themeToggle" type="button" aria-label="Сменить тему" title="Сменить тему">
+          <svg class="icon icon-sun"><use href="#i-sun"/></svg>
+          <svg class="icon icon-moon"><use href="#i-moon"/></svg>
+        </button>
+        <button class="btn btn-primary btn-sm" type="button" data-open-deck>
+          <svg class="icon"><use href="#i-note"/></svg>
+          Презентация
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="pulse"></span> Технологии коммуникации · Принципы командообразования</p>
+          <h1>Лидерство — это <span class="grad">коммуникация</span>, которую выбирают люди</h1>
+          <p class="hero-lead">Интерактивный курс о том, как влиять без принуждения, говорить так, чтобы слышали, и собирать команду, которая сильнее суммы участников.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-lg" type="button" data-open-deck>
+              <svg class="icon"><use href="#i-note"/></svg>
+              Открыть презентацию
+            </button>
+            <a class="btn btn-ghost btn-lg" href="#test">
+              Пройти тест
+              <svg class="icon"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+          <ul class="hero-stats">
+            <li><strong>14</strong><span>слайдов</span></li>
+            <li><strong>3</strong><span>интерактива</span></li>
+            <li><strong>~20</strong><span>минут</span></li>
+            <li><strong>0</strong><span>воды</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="orbit">
+            <div class="orbit-center">
+              <span>ЛИДЕР</span>
+              <small>влияние</small>
+            </div>
+            <div class="orbit-ring r1"></div>
+            <div class="orbit-ring r2"></div>
+            <div class="orbit-chip c1">Смысл</div>
+            <div class="orbit-chip c2">Доверие</div>
+            <div class="orbit-chip c3">Обратная связь</div>
+            <div class="orbit-chip c4">Ответственность</div>
+          </div>
+          <div class="hero-quote">
+            <svg class="icon"><use href="#i-spark"/></svg>
+            <p>«Лидерство начинается там, где заканчивается должность»</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAM -->
+    <section class="section" id="program">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Маршрут</p>
+          <h2>Что внутри курса</h2>
+          <p>Пять блоков, которые собираются в одну рабочую модель: понимать себя, слышать других, выстраивать доверие и вести команду через этапы роста.</p>
+        </div>
+        <div class="program-grid">
+          <a class="program-card reveal" href="#communication">
+            <span class="card-index">01</span>
+            <span class="card-icon"><svg class="icon"><use href="#i-message"/></svg></span>
+            <h3>Коммуникация</h3>
+            <p>Модель передачи смысла, барьеры и то, как один вопрос меняет разговор.</p>
+            <span class="card-link">Разобрать модель <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="program-card reveal" href="#team">
+            <span class="card-index">02</span>
+            <span class="card-icon"><svg class="icon"><use href="#i-users"/></svg></span>
+            <h3>Команда</h3>
+            <p>Пять стадий по Такману: что происходит и что делать лидеру на каждой.</p>
+            <span class="card-link">Пройти по этапам <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="program-card reveal" href="#test">
+            <span class="card-index">03</span>
+            <span class="card-icon"><svg class="icon"><use href="#i-compass"/></svg></span>
+            <h3>Стиль лидерства</h3>
+            <p>Тест из 10 ситуаций: директивный, демократический, трансформационный или коучинговый.</p>
+            <span class="card-link">Узнать свой стиль <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="program-card reveal" href="#simulator">
+            <span class="card-index">04</span>
+            <span class="card-icon"><svg class="icon"><use href="#i-target"/></svg></span>
+            <h3>Симулятор</h3>
+            <p>Пять решений в роли нового руководителя. Цена ошибки — доверие и результат.</p>
+            <span class="card-link">Сыграть сценарий <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+          <a class="program-card reveal" href="#tools">
+            <span class="card-index">05</span>
+            <span class="card-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
+            <h3>Инструменты</h3>
+            <p>Обратная связь SBI, уравнение доверия, конфликты и фразы, которые работают.</p>
+            <span class="card-link">Открыть шпаргалку <svg class="icon"><use href="#i-arrow"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNICATION MODEL -->
+    <section class="section section-alt" id="communication">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Блок 01 · Коммуникация</p>
+          <h2>Смысл не передаётся. Он <em>собирается</em></h2>
+          <p>Каждое сообщение проходит через фильтры опыта, эмоций и контекста. Нажимайте на элементы схемы — покажем, где чаще всего теряется смысл.</p>
+        </div>
+
+        <div class="model-layout reveal">
+          <div class="model-flow" id="modelFlow" aria-label="Интерактивная модель коммуникации">
+            <button class="model-node" type="button" data-node="sender">
+              <span class="node-num">1</span>
+              <strong>Отправитель</strong>
+              <small>цель и намерение</small>
+            </button>
+            <span class="flow-arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            <button class="model-node" type="button" data-node="encode">
+              <span class="node-num">2</span>
+              <strong>Кодирование</strong>
+              <small>слова, тон, канал</small>
+            </button>
+            <span class="flow-arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            <button class="model-node" type="button" data-node="channel">
+              <span class="node-num">3</span>
+              <strong>Канал</strong>
+              <small>встреча, чат, письмо</small>
+            </button>
+            <span class="flow-arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            <button class="model-node" type="button" data-node="decode">
+              <span class="node-num">4</span>
+              <strong>Декодирование</strong>
+              <small>опыт и ожидания</small>
+            </button>
+            <span class="flow-arrow" aria-hidden="true"><svg class="icon"><use href="#i-arrow"/></svg></span>
+            <button class="model-node" type="button" data-node="receiver">
+              <span class="node-num">5</span>
+              <strong>Получатель</strong>
+              <small>смысл и реакция</small>
+            </button>
+          </div>
+
+          <div class="model-side">
+            <div class="model-noise"><span>Шум</span> — всё, что искажает сигнал: спешка, жаргон, шум в помещении, предубеждения, перегрузка.</div>
+            <div class="model-feedback"><svg class="icon"><use href="#i-refresh"/></svg> Обратная связь замыкает цикл: уточнение, вопрос, пересказ, реакция.</div>
+            <div class="model-detail" id="modelDetail" aria-live="polite">
+              <span class="detail-kicker">Выберите элемент схемы</span>
+              <h3>Начните с отправителя</h3>
+              <p>У любого сообщения есть цель. Пока она не сформулирована, получатель будет додумывать её сам — обычно не в вашу пользу.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="barrier-strip reveal">
+          <div class="barrier"><span>01</span><h4>Физический шум</h4><p>Плохая связь, спешка, неудобная обстановка.</p></div>
+          <div class="barrier"><span>02</span><h4>Семантика</h4><p>Одни слова — разные значения. «Скоро» у всех своё.</p></div>
+          <div class="barrier"><span>03</span><h4>Эмоции</h4><p>Тревога и раздражение сужают восприятие.</p></div>
+          <div class="barrier"><span>04</span><h4>Статус</h4><p>Страх сказать правду руководителю.</p></div>
+          <div class="barrier"><span>05</span><h4>Перегрузка</h4><p>Слишком много сообщений и каналов сразу.</p></div>
+          <div class="barrier"><span>06</span><h4>Установка</h4><p>Мы слышим то, что ожидаем услышать.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEAM STAGES -->
+    <section class="section" id="team">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Блок 02 · Команда</p>
+          <h2>Команда растёт через <em>турбулентность</em></h2>
+          <p>Модель Брюса Такмана: конфликт — не признак провала, а обязательная стадия. Задача лидера — не избегать шторма, а провести через него.</p>
+        </div>
+
+        <div class="stage-widget reveal">
+          <div class="stage-tabs" role="tablist" aria-label="Этапы развития команды">
+            <button class="stage-tab is-active" role="tab" aria-selected="true" data-stage="0" type="button"><span>1</span>Forming</button>
+            <button class="stage-tab" role="tab" aria-selected="false" data-stage="1" type="button"><span>2</span>Storming</button>
+            <button class="stage-tab" role="tab" aria-selected="false" data-stage="2" type="button"><span>3</span>Norming</button>
+            <button class="stage-tab" role="tab" aria-selected="false" data-stage="3" type="button"><span>4</span>Performing</button>
+            <button class="stage-tab" role="tab" aria-selected="false" data-stage="4" type="button"><span>5</span>Adjourning</button>
+          </div>
+          <div class="stage-track" aria-hidden="true"><i id="stageTrackFill"></i></div>
+          <div class="stage-panel" id="stagePanel" role="tabpanel" aria-live="polite"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TEST -->
+    <section class="section section-alt" id="test">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Блок 03 · Самодиагностика</p>
+          <h2>Какой вы лидер <em>в моменте</em>?</h2>
+          <p>10 рабочих ситуаций, 4 стратегии. Здесь нет «правильного» стиля: сильный лидер переключается. Тест покажет ваш профиль по умолчанию.</p>
+        </div>
+
+        <div class="test-shell reveal">
+          <aside class="test-aside">
+            <div class="test-badge"><svg class="icon"><use href="#i-compass"/></svg></div>
+            <h3>4 стиля</h3>
+            <ul class="style-legend">
+              <li><i class="sw sw-dir"></i><span><strong>Директивный</strong> — быстро, чётко, по делу</span></li>
+              <li><i class="sw sw-demo"></i><span><strong>Демократический</strong> — вместе, через согласие</span></li>
+              <li><i class="sw sw-trans"></i><span><strong>Трансформационный</strong> — через смысл и развитие</span></li>
+              <li><i class="sw sw-coach"></i><span><strong>Коучинговый</strong> — через вопросы и поддержку</span></li>
+            </ul>
+            <p class="aside-note">Результат сохраняется в браузере — можно вернуться позже.</p>
+          </aside>
+
+          <div class="test-card" id="testCard">
+            <div class="test-top">
+              <span id="testStep">Вопрос 1 / 10</span>
+              <div class="test-progress"><i id="testBar"></i></div>
+            </div>
+            <h3 class="test-question" id="qText"></h3>
+            <div class="test-options" id="qOptions"></div>
+            <div class="test-nav">
+              <button class="btn btn-ghost btn-sm" id="testPrev" type="button" disabled>
+                <svg class="icon"><use href="#i-left"/></svg> Назад
+              </button>
+              <span class="test-hint" id="testHint">Выберите вариант ответа</span>
+            </div>
+          </div>
+
+          <div class="test-result" id="testResult" hidden>
+            <p class="eyebrow"><span class="pulse"></span> Ваш профиль</p>
+            <h3 id="resultTitle"></h3>
+            <p class="result-lead" id="resultLead"></p>
+            <div class="result-bars" id="resultBars"></div>
+            <div class="result-grid">
+              <div><h4>Сильная сторона</h4><p id="resultPlus"></p></div>
+              <div><h4>Слепая зона</h4><p id="resultMinus"></p></div>
+              <div><h4>Развитие</h4><p id="resultTip"></p></div>
+            </div>
+            <div class="result-actions">
+              <button class="btn btn-primary" id="testRestart" type="button"><svg class="icon"><use href="#i-refresh"/></svg> Пройти заново</button>
+              <a class="btn btn-ghost" href="#simulator">Проверить в симуляторе <svg class="icon"><use href="#i-arrow"/></svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SIMULATOR -->
+    <section class="section" id="simulator">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Блок 04 · Симулятор</p>
+          <h2>Пять решений нового руководителя</h2>
+          <p>Вы возглавили продуктовую команду. Каждый выбор меняет три показателя. Идеальной стратегии нет — есть последствия и разбор.</p>
+        </div>
+
+        <div class="sim-shell reveal">
+          <div class="sim-metrics">
+            <div class="metric" data-metric="trust">
+              <div class="metric-head"><span>Доверие</span><strong id="mTrust">50</strong></div>
+              <div class="metric-bar"><i id="bTrust"></i></div>
+            </div>
+            <div class="metric" data-metric="engage">
+              <div class="metric-head"><span>Вовлечённость</span><strong id="mEngage">50</strong></div>
+              <div class="metric-bar"><i id="bEngage"></i></div>
+            </div>
+            <div class="metric" data-metric="result">
+              <div class="metric-head"><span>Результат</span><strong id="mResult">50</strong></div>
+              <div class="metric-bar"><i id="bResult"></i></div>
+            </div>
+          </div>
+
+          <div class="sim-card" id="simCard">
+            <div class="sim-top">
+              <span id="simRound">Ситуация 1 / 5</span>
+              <span class="sim-tag" id="simTag">Старт</span>
+            </div>
+            <h3 id="simTitle"></h3>
+            <p class="sim-text" id="simText"></p>
+            <div class="sim-options" id="simOptions"></div>
+            <div class="sim-feedback" id="simFeedback" hidden></div>
+            <div class="sim-next" id="simNextWrap" hidden>
+              <button class="btn btn-primary" id="simNext" type="button">Дальше <svg class="icon"><use href="#i-arrow"/></svg></button>
+            </div>
+          </div>
+
+          <div class="sim-final" id="simFinal" hidden>
+            <p class="eyebrow"><span class="pulse"></span> Итог месяца</p>
+            <h3 id="simFinalTitle"></h3>
+            <p id="simFinalText"></p>
+            <div class="sim-final-stats" id="simFinalStats"></div>
+            <div class="sim-lessons" id="simLessons"></div>
+            <button class="btn btn-primary" id="simRestart" type="button"><svg class="icon"><use href="#i-refresh"/></svg> Пройти заново</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOOLS -->
+    <section class="section section-alt" id="tools">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="pulse"></span> Блок 05 · Инструменты</p>
+          <h2>Шпаргалка лидера</h2>
+          <p>Три инструмента, которые можно применить уже завтра: обратная связь без обвинений, доверие без манипуляций и конфликт без разрушения.</p>
+        </div>
+
+        <div class="tools-grid">
+          <div class="tool-card tool-wide reveal">
+            <div class="tool-head">
+              <span class="tool-icon"><svg class="icon"><use href="#i-message"/></svg></span>
+              <div><h3>Конструктор обратной связи SBI</h3><p>Ситуация → Поведение → Влияние. Опишите факт, а не характер.</p></div>
+            </div>
+            <div class="sbi-grid">
+              <label>Ситуация<input id="sbiS" type="text" placeholder="Вчера на демо, когда клиент задал вопрос…" maxlength="120"></label>
+              <label>Поведение<input id="sbiB" type="text" placeholder="вы ответили «это не ко мне» и передали слово коллеге…" maxlength="160"></label>
+              <label>Влияние<input id="sbiI" type="text" placeholder="клиент замолчал, и мы потеряли контакт с ним." maxlength="160"></label>
+            </div>
+            <div class="sbi-output">
+              <p id="sbiOut">Заполните три поля — соберём точную фразу без оценок и обобщений.</p>
+              <div class="sbi-actions">
+                <button class="btn btn-primary btn-sm" id="sbiCopy" type="button"><svg class="icon"><use href="#i-copy"/></svg> Скопировать</button>
+                <button class="btn btn-ghost btn-sm" id="sbiExample" type="button">Пример</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="tool-card reveal">
+            <div class="tool-head">
+              <span class="tool-icon"><svg class="icon"><use href="#i-shield"/></svg></span>
+              <div><h3>Уравнение доверия</h3><p>Доверие = (компетентность + надёжность + близость) / эгоцентризм.</p></div>
+            </div>
+            <ul class="mini-list">
+              <li><strong>Компетентность</strong> — «он понимает, что делает»</li>
+              <li><strong>Надёжность</strong> — «на него можно положиться»</li>
+              <li><strong>Близость</strong> — «с ним безопасно говорить правду»</li>
+              <li><strong>Эгоцентризм</strong> — «он думает только о себе» — делитель, который обнуляет всё</li>
+            </ul>
+          </div>
+
+          <div class="tool-card reveal">
+            <div class="tool-head">
+              <span class="tool-icon"><svg class="icon"><use href="#i-layers"/></svg></span>
+              <div><h3>Конфликт: 5 стратегий</h3><p>По Томасу — Килменну выбор зависит от важности цели и отношений.</p></div>
+            </div>
+            <div class="conflict-grid">
+              <span><b>Соперничество</b> — важно и то, и другое</span>
+              <span><b>Сотрудничество</b> — выиграть вместе</span>
+              <span><b>Компромисс</b> — быстро и пополам</span>
+              <span><b>Избегание</b> — вопрос не стоит энергии</span>
+              <span><b>Приспособление</b> — отношения дороже</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="phrases reveal">
+          <h3>Замените фразу — измените разговор</h3>
+          <div class="phrase-grid">
+            <div class="phrase"><span class="bad">«Ты не прав»</span><span class="good">«Помоги увидеть, что я упускаю»</span></div>
+            <div class="phrase"><span class="bad">«Почему не сделано?»</span><span class="good">«Что мешает закончить?»</span></div>
+            <div class="phrase"><span class="bad">«Делай как я сказал»</span><span class="good">«Вот цель и рамки. Как ты предлагаешь?»</span></div>
+            <div class="phrase"><span class="bad">«Вы молодцы»</span><span class="good">«Вы сдали раньше срока и без потерь в качестве»</span></div>
+            <div class="phrase"><span class="bad">«Это не моя зона»</span><span class="good">«Кто здесь сильнее всего в этом? Давайте подключим»</span></div>
+            <div class="phrase"><span class="bad">«Не переживай»</span><span class="good">«Я вижу, что это важно. Давай разберём по шагам»</span></div>
+          </div>
+        </div>
+
+        <div class="principles reveal">
+          <div class="principle"><span>01</span><h4>Ясность</h4><p>Цель, рамки, критерии успеха — на одном экране.</p></div>
+          <div class="principle"><span>02</span><h4>Последовательность</h4><p>Слова и решения не должны противоречить.</p></div>
+          <div class="principle"><span>03</span><h4>Эмпатия</h4><p>Сначала понять, потом быть понятым.</p></div>
+          <div class="principle"><span>04</span><h4>Обратная связь</h4><p>Регулярно, конкретно, вовремя.</p></div>
+          <div class="principle"><span>05</span><h4>Делегирование</h4><p>Передавайте результат, а не инструкции.</p></div>
+          <div class="principle"><span>06</span><h4>Признание</h4><p>Замечайте вклад вслух и по имени.</p></div>
+          <div class="principle"><span>07</span><h4>Ответственность</h4><p>«Я» за решения, «мы» за результат.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section">
+      <div class="wrap cta-inner reveal">
+        <div>
+          <p class="eyebrow"><span class="pulse"></span> Проверьте себя</p>
+          <h2>Лидерство не читают. Его <span class="grad">тренируют</span>.</h2>
+          <p>Пройдите тест, сыграйте пять ситуаций и заберите шпаргалку. Начните с одного разговора на этой неделе.</p>
+        </div>
+        <div class="cta-actions">
+          <button class="btn btn-primary btn-lg" type="button" data-open-deck>Смотреть презентацию</button>
+          <a class="btn btn-ghost btn-lg" href="#simulator">В симулятор <svg class="icon"><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div>
+        <a class="brand" href="#top"><span class="brand-mark">Λ</span> Лидерство<span class="dot">.</span></a>
+        <p>Учебный проект по дисциплине «Технологии коммуникации и принципы командообразования».</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com/sowhat34mine-create" target="_blank" rel="noopener">GitHub</a>
+        <button class="link-btn" type="button" id="printDeck">Скачать презентацию в PDF</button>
+        <a href="#top">Наверх ↑</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PRESENTATION DECK -->
+  <div class="deck-overlay" id="deck" role="dialog" aria-modal="true" aria-label="Презентация «Лидерство»" aria-hidden="true">
+    <div class="deck-topbar">
+      <div class="deck-brand"><span class="brand-mark">Λ</span> Лидерство</div>
+      <div class="deck-status"><span id="deckCounter">01 / 14</span><div class="deck-progress"><i id="deckBar"></i></div></div>
+      <div class="deck-tools">
+        <button class="icon-btn" id="deckNotesBtn" type="button" aria-label="Заметки докладчика" title="Заметки (N)"><svg class="icon"><use href="#i-note"/></svg></button>
+        <button class="icon-btn" id="deckPrintBtn" type="button" aria-label="Печать / PDF" title="Печать / PDF"><svg class="icon"><use href="#i-print"/></svg></button>
+        <button class="icon-btn" id="deckClose" type="button" aria-label="Закрыть презентацию" title="Закрыть (Esc)"><svg class="icon"><use href="#i-close"/></svg></button>
+      </div>
+    </div>
+
+    <div class="deck-stage" id="deckStage">
+      <article class="slide is-active" data-title="Титул" data-notes="Приветствие. Обозначьте контракт на 20 минут: три интерактива, никакой теории ради теории. Спросите аудиторию: «Кого вы считаете сильным лидером и почему?» — это создаст точку входа.">
+        <span class="slide-kicker">Технологии коммуникации · Принципы командообразования</span>
+        <h2 class="slide-title">Лидерство</h2>
+        <p class="slide-lead">Как влиять без принуждения, говорить так, чтобы слышали, и собирать команду, которая сильнее суммы участников.</p>
+        <div class="slide-meta"><span>14 слайдов</span><span>~20 минут</span><span>тест + симулятор</span></div>
+        <div class="slide-footnote">Нажимайте → или ← · F — полный экран · N — заметки</div>
+      </article>
+
+      <article class="slide" data-title="Лидер и менеджер" data-notes="Ключевая мысль: это не два типа людей, а два режима. Плохой руководитель застревает в одном. Спросите: «Где вы сейчас больше менеджер, чем лидер?»">
+        <span class="slide-kicker">01 · Различие</span>
+        <h2>Лидер и менеджер — не либо-либо</h2>
+        <div class="split">
+          <div class="slide-card">
+            <span class="tag">Менеджер</span>
+            <h3>Делает систему предсказуемой</h3>
+            <ul>
+              <li>Отвечает на вопрос «как?»</li>
+              <li>Планирует, контролирует, стабилизирует</li>
+              <li>Работает с процессами и ресурсами</li>
+              <li>Власть — из должности</li>
+            </ul>
+          </div>
+          <div class="slide-card accent">
+            <span class="tag">Лидер</span>
+            <h3>Создаёт движение</h3>
+            <ul>
+              <li>Отвечает на вопрос «зачем?»</li>
+              <li>Формулирует смысл и направление</li>
+              <li>Работает с людьми и изменениями</li>
+              <li>Влияние — из доверия</li>
+            </ul>
+          </div>
+        </div>
+        <div class="callout"><strong>Формула:</strong> менеджмент делает вещи правильными, лидерство — делает правильные вещи.</div>
+      </article>
+
+      <article class="slide" data-title="Три вопроса" data-notes="Попросите аудиторию ответить на три вопроса про свою реальную команду. Обычно провал обнаруживается на втором — «зачем». Это и есть точка роста лидера.">
+        <span class="slide-kicker">02 · Основа</span>
+        <h2>Лидер отвечает на три вопроса</h2>
+        <div class="question-grid">
+          <div class="big-q"><span>01</span><h3>Куда идём?</h3><p>Видение и образ результата. Люди должны уметь представить успех.</p></div>
+          <div class="big-q"><span>02</span><h3>Зачем это мне?</h3><p>Смысл и личная выгода. Без ответа мотивация остаётся внешней.</p></div>
+          <div class="big-q"><span>03</span><h3>Кто и как?</h3><p>Роли, правила, ресурсы. Ясность снимает тревогу и политику.</p></div>
+        </div>
+        <p class="slide-quote">«Если вы хотите построить корабль, не надо звать людей собирать дрова. Научите их тосковать по бескрайнему морю». — Антуан де Сент-Экзюпери</p>
+      </article>
+
+      <article class="slide" data-title="Модель коммуникации" data-notes="Подчеркните: смысл рождается у получателя, а не передаётся как файл. Самый дешёвый апгрейд коммуникации — обратная связь: «Что ты услышал?»">
+        <span class="slide-kicker">03 · Коммуникация</span>
+        <h2>Смысл собирается, а не передаётся</h2>
+        <div class="flow-row">
+          <div class="flow-box"><b>1</b><span>Отправитель</span><small>намерение</small></div>
+          <div class="flow-chev">→</div>
+          <div class="flow-box"><b>2</b><span>Кодирование</span><small>слова и тон</small></div>
+          <div class="flow-chev">→</div>
+          <div class="flow-box"><b>3</b><span>Канал</span><small>среда</small></div>
+          <div class="flow-chev">→</div>
+          <div class="flow-box"><b>4</b><span>Декодирование</span><small>фильтры</small></div>
+          <div class="flow-chev">→</div>
+          <div class="flow-box"><b>5</b><span>Получатель</span><small>реакция</small></div>
+        </div>
+        <div class="noise-row"><span class="noise-pill">Шум: эмоции · жаргон · спешка · статус</span><span class="noise-pill feedback-pill">Обратная связь замыкает цикл</span></div>
+        <div class="stat-row">
+          <div><strong>7%</strong><span>слова</span></div>
+          <div><strong>38%</strong><span>интонация</span></div>
+          <div><strong>55%</strong><span>невербальное</span></div>
+          <p>Мехрабиан — про передачу чувств и отношений, а не про факты. Для фактов важны точность и структура.</p>
+        </div>
+      </article>
+
+      <article class="slide" data-title="Барьеры" data-notes="Дайте аудитории минуту: пусть каждый назовёт барьер, который чаще всего встречает в своей команде. Соберите 2–3 и покажите, что большинство — управляемые.">
+        <span class="slide-kicker">04 · Барьеры</span>
+        <h2>Где теряется смысл</h2>
+        <div class="barrier-grid">
+          <div class="mini-card"><h4>Физический шум</h4><p>Плохая связь, спешка, неудобная среда.</p></div>
+          <div class="mini-card"><h4>Семантика</h4><p>«Скоро», «качественно», «нормально» — у каждого своё.</p></div>
+          <div class="mini-card"><h4>Эмоции</h4><p>Тревога сужает восприятие и усиливает защиту.</p></div>
+          <div class="mini-card"><h4>Статус и страх</h4><p>Люди не говорят правду тому, кто оценивает.</p></div>
+          <div class="mini-card"><h4>Перегрузка</h4><p>Много каналов, мало времени на осмысление.</p></div>
+          <div class="mini-card"><h4>Установка</h4><p>Слышим то, что ожидаем, а не то, что сказали.</p></div>
+        </div>
+        <div class="callout"><strong>Приём:</strong> после важного разговора попросите пересказать договорённости своими словами — это дешевле любых инструкций.</div>
+      </article>
+
+      <article class="slide" data-title="Стили лидерства" data-notes="Свяжите со тестом на сайте. Важно: стиль — не характер, а выбор под задачу и зрелость команды. Директивный стиль токсичен не сам по себе, а без объяснения причин.">
+        <span class="slide-kicker">05 · Стили</span>
+        <h2>Стиль — это выбор под задачу</h2>
+        <div class="style-cards">
+          <div class="style-card"><span class="tag tag-dir">Директивный</span><h3>Решение за лидером</h3><p><b>Когда:</b> кризис, дедлайн, низкая зрелость, безопасность.</p><p><b>Риск:</b> инициатива умирает, люди ждут указаний.</p></div>
+          <div class="style-card"><span class="tag tag-demo">Демократический</span><h3>Решение вместе</h3><p><b>Когда:</b> есть время, экспертиза в команде, важна причастность.</p><p><b>Риск:</b> медленно, размывается ответственность.</p></div>
+          <div class="style-card"><span class="tag tag-trans">Трансформационный</span><h3>Решение через смысл</h3><p><b>Когда:</b> изменения, рост, нужна вовлечённость на длинной дистанции.</p><p><b>Риск:</b> выгорание лидера и «культа личности».</p></div>
+        </div>
+        <div class="situational">
+          <h4>Ситуационное лидерство: под зрелость задачи</h4>
+          <div class="situ-row">
+            <span><b>M1</b> не умеет и не хочет → <b>S1</b> директивный</span>
+            <span><b>M2</b> не умеет, но хочет → <b>S2</b> наставнический</span>
+            <span><b>M3</b> умеет, но не уверен → <b>S3</b> поддерживающий</span>
+            <span><b>M4</b> умеет и хочет → <b>S4</b> делегирующий</span>
+          </div>
+        </div>
+      </article>
+
+      <article class="slide" data-title="Смысл и служение" data-notes="Трансформационное лидерство отвечает на «зачем», сервант-лидерство — на «для кого». Спросите: «Что изменится в команде, если лидер начнёт спрашивать: чем я могу помочь?»">
+        <span class="slide-kicker">06 · Глубина</span>
+        <h2>Вести за собой или служить команде?</h2>
+        <div class="split">
+          <div class="slide-card">
+            <span class="tag">Трансформационное</span>
+            <h3>4 I</h3>
+            <ul>
+              <li><b>Idealized influence</b> — личный пример и ценности</li>
+              <li><b>Inspirational motivation</b> — образ будущего</li>
+              <li><b>Intellectual stimulation</b> — право задавать вопросы</li>
+              <li><b>Individualized consideration</b> — внимание к человеку</li>
+            </ul>
+          </div>
+          <div class="slide-card accent">
+            <span class="tag">Servant leadership</span>
+            <h3>Лидер как слуга</h3>
+            <ul>
+              <li>Сначала потребности команды, потом амбиции лидера</li>
+              <li>Эмпатия без вседозволенности</li>
+              <li>Развитие людей важнее краткосрочного результата</li>
+              <li>Власть как ответственность, а не привилегия</li>
+            </ul>
+          </div>
+        </div>
+        <div class="callout"><strong>Баланс:</strong> смысл без дисциплины — мечта; дисциплина без смысла — конвейер.</div>
+      </article>
+
+      <article class="slide" data-title="Эмоциональный интеллект" data-notes="ЭИ — не «быть добрым», а точно распознавать и управлять эмоциями. Предложите упражнение: назовите эмоцию, которую чаще всего подавляете в команде, и что она сигнализирует.">
+        <span class="slide-kicker">07 · Эмоциональный интеллект</span>
+        <h2>Сначала стабильность, потом скорость</h2>
+        <div class="ei-grid">
+          <div class="ei-cell"><span>01</span><h3>Самосознание</h3><p>Я понимаю, что чувствую и как это влияет на решения.</p></div>
+          <div class="ei-cell"><span>02</span><h3>Саморегуляция</h3><p>Я могу сделать паузу между стимулом и реакцией.</p></div>
+          <div class="ei-cell"><span>03</span><h3>Эмпатия</h3><p>Я слышу чувства за словами и учитываю контекст.</p></div>
+          <div class="ei-cell"><span>04</span><h3>Социальные навыки</h3><p>Я умею строить связи, вести переговоры и давать обратную связь.</p></div>
+        </div>
+        <div class="callout"><strong>Правило паузы:</strong> сильная эмоция — плохой советник. Сначала назовите её, потом принимайте решение.</div>
+      </article>
+
+      <article class="slide" data-title="Доверие" data-notes="Покажите уравнение. Спросите: какой компонент проще всего разрушить в вашей команде? Обычно — близость, потому что за правду наказывают.">
+        <span class="slide-kicker">08 · Доверие</span>
+        <h2>Доверие — это уравнение</h2>
+        <div class="trust-eq">
+          <div class="trust-num">
+            <span>Компетентность</span><span>+</span><span>Надёжность</span><span>+</span><span>Близость</span>
+          </div>
+          <div class="trust-line"></div>
+          <div class="trust-den"><span>Эгоцентризм</span></div>
+        </div>
+        <div class="trust-notes">
+          <p><b>Компетентность:</b> «он понимает, что делает».</p>
+          <p><b>Надёжность:</b> «на него можно положиться».</p>
+          <p><b>Близость:</b> «с ним безопасно говорить правду».</p>
+          <p><b>Эгоцентризм:</b> «он думает только о себе» — делитель, который обнуляет всё остальное.</p>
+        </div>
+        <p class="slide-quote">Доверие строится месяцами, а разрушается одним разговором, где человек понял: правду здесь наказывают.</p>
+      </article>
+
+      <article class="slide" data-title="Этапы команды" data-notes="Главное — легитимизировать шторм. Если лидер пугается конфликта и гасит его, команда застревает между Storming и Norming. Норма — не отсутствие конфликта, а умение его проходить.">
+        <span class="slide-kicker">09 · Команда</span>
+        <h2>Пять стадий по Такману</h2>
+        <div class="tuckman">
+          <div class="tuck"><b>1</b><h4>Forming</h4><p>Вежливость, тревога, зависимость от лидера.</p><em>Задача: ясность</em></div>
+          <div class="tuck"><b>2</b><h4>Storming</h4><p>Борьба за роли, конфликты, проверка границ.</p><em>Задача: правила диалога</em></div>
+          <div class="tuck"><b>3</b><h4>Norming</h4><p>Договорённости, доверие, «мы» вместо «я».</p><em>Задача: закрепить нормы</em></div>
+          <div class="tuck"><b>4</b><h4>Performing</h4><p>Автономия, высокая продуктивность, самоуправление.</p><em>Задача: не мешать</em></div>
+          <div class="tuck"><b>5</b><h4>Adjourning</h4><p>Завершение, рефлексия, признание вклада.</p><em>Задача: закрыть смысл</em></div>
+        </div>
+        <div class="callout"><strong>Важно:</strong> команда может возвращаться на предыдущие стадии при смене состава, цели или лидера. Это нормально.</div>
+      </article>
+
+      <article class="slide" data-title="Роли Белбина" data-notes="Не пытайтесь запомнить все девять. Запомните принцип: команде нужны разные типы вклада. Конфликт между «генератором идей» и «доводчиком» — не токсичность, а конструктивное напряжение.">
+        <span class="slide-kicker">10 · Роли</span>
+        <h2>Сильная команда — это разные роли</h2>
+        <div class="belbin">
+          <div class="belbin-col"><h4>Мысль</h4><span>Генератор идей</span><span>Аналитик</span><span>Специалист</span></div>
+          <div class="belbin-col"><h4>Действие</h4><span>Мотиватор</span><span>Реализатор</span><span>Доводчик</span></div>
+          <div class="belbin-col"><h4>Люди</h4><span>Координатор</span><span>Дипломат</span><span>Исследователь ресурсов</span></div>
+        </div>
+        <p class="slide-quote">Лидер не обязан быть лучшим во всём. Он обязан видеть, кого не хватает, и не пытаться заменить собой всю команду.</p>
+      </article>
+
+      <article class="slide" data-title="Обратная связь и конфликт" data-notes="Отработайте SBI на примере из аудитории. Напомните: обратная связь — это подарок, но только если она про поведение, а не про личность. Конфликт — это несогласие плюс эмоция; убираем эмоцию — остаётся задача.">
+        <span class="slide-kicker">11 · Разговор</span>
+        <h2>Обратная связь без обвинений</h2>
+        <div class="sbi-slide">
+          <div class="sbi-step"><b>S</b><h4>Situation</h4><p>Когда и где это произошло.</p></div>
+          <div class="sbi-step"><b>B</b><h4>Behavior</h4><p>Что конкретно сделал человек — без оценок.</p></div>
+          <div class="sbi-step"><b>I</b><h4>Impact</h4><p>Какое влияние это оказало на результат и людей.</p></div>
+        </div>
+        <div class="conflict-strip">
+          <span><b>Соперничество</b> — быстро, но дорого</span>
+          <span><b>Сотрудничество</b> — лучшее, но долгое</span>
+          <span><b>Компромисс</b> — рабочий минимум</span>
+          <span><b>Избегание</b> — пауза, не решение</span>
+          <span><b>Приспособление</b> — сохранить отношения</span>
+        </div>
+      </article>
+
+      <article class="slide" data-title="Семь принципов" data-notes="Завершите на действии: попросите каждого выбрать один принцип и одно действие на неделю. Лидерство — это не знание, а повторяемое поведение.">
+        <span class="slide-kicker">12 · Практика</span>
+        <h2>Семь принципов, которые работают</h2>
+        <div class="principles-slide">
+          <div><b>01</b><span>Ясность цели и рамок</span></div>
+          <div><b>02</b><span>Последовательность слов и решений</span></div>
+          <div><b>03</b><span>Эмпатия без вседозволенности</span></div>
+          <div><b>04</b><span>Регулярная конкретная обратная связь</span></div>
+          <div><b>05</b><span>Делегирование результата, а не инструкций</span></div>
+          <div><b>06</b><span>Признание вклада вслух и по имени</span></div>
+          <div><b>07</b><span>Ответственность: «я» за решения, «мы» за результат</span></div>
+        </div>
+        <div class="callout"><strong>Мини-действие:</strong> выберите один принцип и один разговор на этой неделе, где вы примените его осознанно.</div>
+      </article>
+
+      <article class="slide slide-final" data-title="Итоги" data-notes="Финальный слайд. Свяжите с интерактивами: тест — про самопознание, симулятор — про решения под давлением, шпаргалка — про перенос в практику. Поблагодарите и оставьте время на вопросы.">
+        <span class="slide-kicker">Итог</span>
+        <h2>Лидерство — это <span class="grad">повторяемый выбор</span></h2>
+        <div class="final-grid">
+          <div><b>01</b><p>Люди идут за смыслом и доверием, а не за должностью.</p></div>
+          <div><b>02</b><p>Стиль гибкий: ситуация и зрелость команды важнее привычек.</p></div>
+          <div><b>03</b><p>Команда проходит через шторм — задача лидера провести, а не спрятать.</p></div>
+        </div>
+        <p class="slide-quote">Начните с одного разговора. Закончите одним результатом. Повторите.</p>
+        <div class="slide-meta"><span>Тест на сайте</span><span>Симулятор решений</span><span>Шпаргалка SBI</span></div>
+      </article>
+    </div>
+
+    <div class="deck-bottom">
+      <button class="deck-nav" id="deckPrev" type="button" aria-label="Предыдущий слайд"><svg class="icon"><use href="#i-left"/></svg></button>
+      <div class="deck-dots" id="deckDots" role="tablist" aria-label="Слайды"></div>
+      <button class="deck-nav" id="deckNext" type="button" aria-label="Следующий слайд"><svg class="icon"><use href="#i-right"/></svg></button>
+    </div>
+
+    <aside class="speaker-notes" id="speakerNotes" aria-hidden="true">
+      <div class="notes-head"><span><svg class="icon"><use href="#i-note"/></svg> Заметки докладчика</span><button class="icon-btn" id="notesClose" type="button" aria-label="Закрыть заметки"><svg class="icon"><use href="#i-close"/></svg></button></div>
+      <h4 id="notesTitle"></h4>
+      <p id="notesText"></p>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="assets/app.js"></script>
+</body>
+</html>
